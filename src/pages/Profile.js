@@ -1,6 +1,6 @@
 import { useAuth } from "../AuthContext";
 import { useNavigate } from "react-router-dom";
-import "./Profile.css"; // Make sure to import the CSS
+import "./Profile.css"; 
 
 const Profile = () => {
   const { user, logout } = useAuth();
